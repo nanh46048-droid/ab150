@@ -63,6 +63,14 @@
       "color": "#10b981",
       "icon": "🤖",
       "total": 10
+    },
+    {
+      "id": 9,
+      "title": "Chương AI: dummy.txt",
+      "subtitle": "Tạo lúc 8:15:28 PM",
+      "color": "#10b981",
+      "icon": "🤖",
+      "total": 5
     }
   ],
   "questions": [
@@ -3575,6 +3583,141 @@
       ],
       "correctAnswer": "A",
       "explanation": "Căn cứ theo Khoản 2 Điều 30 Luật Viên chức quy định: \"Thời hạn bổ nhiệm viên chức giữ chức vụ quản lý là 05 năm, trừ trường hợp pháp luật về hoạt động nghề nghiệp có quy định khác...\""
+    },
+    {
+      "id": 131,
+      "chapterId": 9,
+      "chapterTitle": "Chương AI: dummy.txt",
+      "topic": "Phạm vi điều chỉnh",
+      "content": "Theo Điều 1, phạm vi điều chỉnh của văn bản quy định về nội dung nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quy định về nguyên tắc, thẩm quyền và thủ tục thực hiện hoạt động kiểm tra."
+        },
+        {
+          "id": "B",
+          "text": "Quy định về nguyên tắc, thẩm quyền và thủ tục thực hiện hoạt động giám sát."
+        },
+        {
+          "id": "C",
+          "text": "Quy định về nguyên tắc, thẩm quyền và thủ tục thực hiện hoạt động thanh tra."
+        },
+        {
+          "id": "D",
+          "text": "Quy định về nguyên tắc, thẩm quyền và thủ tục thực hiện hoạt động xử phạt."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Căn cứ theo quy định tại Điều 1 về phạm vi điều chỉnh của văn bản."
+    },
+    {
+      "id": 132,
+      "chapterId": 9,
+      "chapterTitle": "Chương AI: dummy.txt",
+      "topic": "Đối tượng áp dụng",
+      "content": "Theo Khoản 1 Điều 2, đối tượng nào sau đây thuộc phạm vi áp dụng quy định?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cơ quan, tổ chức và cá nhân có liên quan đến hoạt động kiểm tra."
+        },
+        {
+          "id": "B",
+          "text": "Cơ quan, tổ chức và cá nhân có liên quan đến hoạt động giám sát."
+        },
+        {
+          "id": "C",
+          "text": "Cơ quan, tổ chức và cá nhân có liên quan đến hoạt động thanh tra."
+        },
+        {
+          "id": "D",
+          "text": "Cơ quan, tổ chức và cá nhân có liên quan đến hoạt động xử phạt."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Căn cứ theo quy định tại Khoản 1 Điều 2 về đối tượng áp dụng."
+    },
+    {
+      "id": 133,
+      "chapterId": 9,
+      "chapterTitle": "Chương AI: dummy.txt",
+      "topic": "Nguyên tắc thực hiện",
+      "content": "Theo Điều 3, nguyên tắc cốt lõi trong quá trình thực hiện là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bảo đảm tính công khai, minh bạch, khách quan và đúng quy định pháp luật."
+        },
+        {
+          "id": "B",
+          "text": "Bảo đảm tính công khai, minh bạch, chủ quan và đúng quy định pháp luật."
+        },
+        {
+          "id": "C",
+          "text": "Bảo đảm tính công khai, bảo mật, khách quan và đúng quy định pháp luật."
+        },
+        {
+          "id": "D",
+          "text": "Bảo đảm tính linh hoạt, minh bạch, khách quan và đúng quy định pháp luật."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Căn cứ theo quy định tại Điều 3 về nguyên tắc thực hiện."
+    },
+    {
+      "id": 134,
+      "chapterId": 9,
+      "chapterTitle": "Chương AI: dummy.txt",
+      "topic": "Thời hạn xử lý",
+      "content": "Theo Khoản 2 Điều 4, thời hạn xử lý hồ sơ được quy định là bao nhiêu ngày?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thời hạn xử lý hồ sơ tối đa là 05 ngày làm việc kể từ ngày nhận đủ hồ sơ."
+        },
+        {
+          "id": "B",
+          "text": "Thời hạn xử lý hồ sơ tối đa là 10 ngày làm việc kể từ ngày nhận đủ hồ sơ."
+        },
+        {
+          "id": "C",
+          "text": "Thời hạn xử lý hồ sơ tối đa là 15 ngày làm việc kể từ ngày nhận đủ hồ sơ."
+        },
+        {
+          "id": "D",
+          "text": "Thời hạn xử lý hồ sơ tối đa là 20 ngày làm việc kể từ ngày nhận đủ hồ sơ."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Căn cứ theo quy định tại Khoản 2 Điều 4 về thời hạn xử lý hồ sơ."
+    },
+    {
+      "id": 135,
+      "chapterId": 9,
+      "chapterTitle": "Chương AI: dummy.txt",
+      "topic": "Thẩm quyền quyết định",
+      "content": "Theo Điều 5, cá nhân nào có thẩm quyền ban hành quyết định xử lý?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Người đứng đầu cơ quan quản lý trực tiếp có thẩm quyền ban hành quyết định."
+        },
+        {
+          "id": "B",
+          "text": "Người đứng đầu cơ quan kiểm tra cấp trên có thẩm quyền ban hành quyết định."
+        },
+        {
+          "id": "C",
+          "text": "Người đứng đầu cơ quan giám sát độc lập có thẩm quyền ban hành quyết định."
+        },
+        {
+          "id": "D",
+          "text": "Người đứng đầu cơ quan thi hành địa phương có thẩm quyền ban hành quyết định."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Căn cứ theo quy định tại Điều 5 về thẩm quyền ban hành quyết định."
     }
   ]
 }

@@ -6,7 +6,7 @@ const courseRouter = require('./routes/course');
 const generateRouter = require('./routes/generate');
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 app.use(cors({
   origin: '*', // hoặc 'https://ab150-2.onrender.com'
