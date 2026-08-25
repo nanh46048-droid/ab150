@@ -10,6 +10,7 @@ const getQuizData = () => {
     const raw = fs.readFileSync(dataPath, 'utf8');
     return JSON.parse(raw);
   } catch (err) {
+    console.error('CRITICAL ERROR reading dynamicQuestions.json:', err.message);
     return { chapters: [], questions: [] };
   }
 };
