@@ -35,7 +35,7 @@ export default function UploadPage() {
     formData.append('count', count);
 
     try {
-      const res = await fetch('http://localhost:4000/api/generate', {
+      const res = await fetch('/api/generate', {
         method: 'POST',
         body: formData,
       });

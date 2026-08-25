@@ -12,7 +12,7 @@ export const metadata = {
 // Server component: fetch data từ backend
 async function getCourseData() {
   try {
-    const res = await fetch('http://localhost:4000/api/course', {
+    const res = await fetch('/api/course', {
       next: { revalidate: 60 },
     });
     if (!res.ok) throw new Error('API error');

@@ -24,8 +24,8 @@ export default function QuizPage() {
     const fetchData = async () => {
       try {
         const [chRes, qRes] = await Promise.all([
-          fetch('http://localhost:4000/api/quiz/chapters'),
-          fetch('http://localhost:4000/api/quiz')
+          fetch('/api/quiz/chapters'),
+          fetch('/api/quiz')
         ]);
         const chaptersData = await chRes.json();
         const questionsData = await qRes.json();
@@ -69,7 +69,7 @@ export default function QuizPage() {
     if (!confirm('Bạn có chắc muốn xóa chương này? Toàn bộ câu hỏi trong chương sẽ bị xóa.')) return;
     
     try {
-      const res = await fetch(`http://localhost:4000/api/quiz/chapters/${chapterId}`, {
+      const res = await fetch(`/api/quiz/chapters/${chapterId}`, {
         method: 'DELETE'
       });
       if (res.ok) {
