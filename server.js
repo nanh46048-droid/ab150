@@ -21,11 +21,11 @@ app.use('/api/generate', generateRouter);
 app.get('/health', (req, res) => res.json({ status: 'ok', timestamp: new Date() }));
 
 // Phục vụ giao diện frontend đã build tĩnh
-app.use(express.static(path.join(__dirname, '../frontend/out'), { extensions: ['html'] }));
+app.use(express.static(path.join(__dirname, 'out'), { extensions: ['html'] }));
 
 // Catch-all route để hỗ trợ client-side routing của React/Next.js
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/out/index.html'));
+  res.sendFile(path.join(__dirname, 'out/index.html'));
 });
 
 app.listen(PORT, () => {
